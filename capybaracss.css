@@ -63,6 +63,13 @@ h1 {
   border-bottom: 2px solid grey;
 }
 
+img{
+  float: right;
+  margin: 10px;
+}
+
+
+
 h2 {
   position: sticky;
   top: 0px;
@@ -72,6 +79,7 @@ h2 {
 
 
 .page-nav {
+  position: absolute;
   left: 0px;
   
 }
@@ -83,7 +91,6 @@ h2 {
 
     .page-nav ul li {
       left: 0px;
-
       line-height: 200%;
     }
 
